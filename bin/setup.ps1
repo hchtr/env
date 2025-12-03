@@ -1,4 +1,4 @@
-[System.Environment]::SetEnvironmentVariable("HCHTR", "C:\hchtr", "User")
+[System.Environment]::SetEnvironmentVariable("HCHTR", "C:/hchtr", "User")
 
 $repoProfile = "$env:HCHTR\repos\dotfiles-win\powershell\profile.ps1"
 
