@@ -1,1 +1,22 @@
-
+{
+    "defaultProfile": "{0be771e3-fa53-4c6f-8852-865ec1c3cc1d}",
+    "copyOnSelect": false,
+    "keybindings": [
+        { "id": "Terminal.CopyToClipboard", "keys": "ctrl+c" },
+        { "id": "Terminal.PasteFromClipboard", "keys": "ctrl+v" },
+        { "id": "Terminal.DuplicatePaneAuto", "keys": "alt+shift+d" }
+    ],
+    "profiles": {
+        "defaults": {
+            "font": { "face": "Consolas" }
+        },
+        "list": [
+            {
+                "guid": "{0be771e3-fa53-4c6f-8852-865ec1c3cc1d}",
+                "name": "pwsh",
+                "commandline": "C:\\Program Files\\WindowsApps\\Microsoft.PowerShell_7.5.4.0_x64__8wekyb3d8bbwe\\pwsh.exe",
+                "hidden": false
+            }
+        ]
+    }
+}
