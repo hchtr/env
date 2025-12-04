@@ -1,6 +1,6 @@
-[System.Environment]::SetEnvironmentVariable("HCHTR", "C:/hchtr", "User")
+[System.Environment]::SetEnvironmentVariable("HCHTR_HOME", "C:/HCHTR", "User")
 
-$repoProfile = "$env:HCHTR\repos\dotfiles-win\powershell\profile.ps1"
+$repoProfile = "$env:HCHTR_HOME\repos\dotfiles-win\powershell\profile.ps1"
 
 New-Item -ItemType Directory -Force -Path (Split-Path $PROFILE) | Out-Null
 
