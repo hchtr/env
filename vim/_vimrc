@@ -1,15 +1,17 @@
-if filereadable('$HCHTR_HOME/repos/env/vim/plugins.vim')
-    source $HCHTR_HOME/repos/env/vim/plugins.vim
+let g:REPO_VIM_PATH = expand('$HCHTR_HOME') . '/repos/env/vim'
+
+if filereadable(g:REPO_VIM_PATH . '/plugins.vim')
+    execute 'source ' . g:REPO_VIM_PATH . '/plugins.vim'
 endif
 
-if filereadable('$HCHTR_HOME/repos/env/vim/settings.vim')
-    source $HCHTR_HOME/repos/env/vim/settings.vim
+if filereadable(g:REPO_VIM_PATH . '/settings.vim')
+    execute 'source ' . g:REPO_VIM_PATH . '/settings.vim'
 endif
 
-if filereadable('$HCHTR_HOME/repos/env/vim/keymaps.vim')
-    source $HCHTR_HOME/repos/env/vim/keymaps.vim
+if filereadable(g:REPO_VIM_PATH . '/keymaps.vim')
+    execute 'source ' . g:REPO_VIM_PATH . '/keymaps.vim'
 endif
 
-if filereadable('$HCHTR_HOME/repos/env/vim/local.vim')
-    source $HCHTR_HOME/repos/env/vim/local.vim
+if filereadable(g:REPO_VIM_PATH . '/local.vim')
+    execute 'source ' . g:REPO_VIM_PATH . '/local.vim'
 endif
