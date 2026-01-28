@@ -14,7 +14,7 @@ opt.wildmenu = true
 opt.number = true
 opt.relativenumber = true
 
-opt.termguicolors = true 
+opt.termguicolors = false
 
 opt.hlsearch = true
 opt.incsearch = true
