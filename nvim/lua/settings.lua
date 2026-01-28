@@ -15,6 +15,7 @@ opt.number = true
 opt.relativenumber = true
 
 opt.termguicolors = false
+vim.cmd("colo sorbet")
 
 opt.hlsearch = true
 opt.incsearch = true
