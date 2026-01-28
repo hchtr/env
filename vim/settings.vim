@@ -13,7 +13,7 @@ set number
 set relativenumber
 
 set termguicolors
-colorscheme sorbet
+colorscheme retrobox
 set guioptions=
 set guioptions+=T
 
