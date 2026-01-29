@@ -1,6 +1,6 @@
 local U = {}
 
-function M.check_backspace()
+function U.check_backspace()
   local col = vim.fn.col('.') - 1
   if col == 0 then
     return true
