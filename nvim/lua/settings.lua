@@ -20,3 +20,8 @@ vim.cmd("colo sorbet")
 opt.hlsearch = true
 opt.incsearch = true
 opt.smartcase = true
+
+vim.g.netrw_banner = 0       
+vim.g.netrw_browse_split = 4 
+vim.g.netrw_winsize = 20     
+vim.g.netrw_altv = 1
