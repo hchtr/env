@@ -1,3 +1,3 @@
 require("settings")
-require("local")
+require("autocmds")
 require("keymaps")
