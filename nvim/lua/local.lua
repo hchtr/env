@@ -1,8 +1,7 @@
 vim.api.nvim_create_autocmd("VimEnter", {
     callback = function()
-        local home = os.getenv("HCHTR_HOME")
-        if home then
-            vim.cmd("cd " .. home)
+        if os.getenv("HCHTR_HOME") then
+            vim.cmd("cd " .. os.getenv("HCHTR_HOME"))
         end
     end,
 })
