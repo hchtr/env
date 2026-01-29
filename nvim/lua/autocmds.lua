@@ -7,6 +7,12 @@ vim.api.nvim_create_autocmd("VimEnter", {
     end,
 })
 --
+vim.api.nvim_create_autocmd("VimEnter", {
+  callback = function()
+    vim.cmd("Vex")
+  end,
+})
+--
 vim.api.nvim_create_autocmd({"BufReadPost", "BufNewFile"}, {
     pattern = { "*.c", "*.h" },
     callback = function()
