@@ -16,7 +16,7 @@ opt.number = true
 opt.relativenumber = true
 
 opt.termguicolors = false
-vim.cmd("colo habamax")
+vim.cmd("colo retrobox")
 
 opt.hlsearch = true
 opt.incsearch = true
