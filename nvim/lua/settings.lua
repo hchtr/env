@@ -17,6 +17,7 @@ opt.relativenumber = true
 
 opt.termguicolors = false
 vim.cmd("colo retrobox")
+vim.api.nvim_set_hl(0, "Normal", { bg = '#000000' })
 
 opt.hlsearch = true
 opt.incsearch = true
@@ -27,4 +28,3 @@ vim.g.netrw_browse_split = 4
 vim.g.netrw_winsize = 20     
 vim.g.netrw_altv = 1
 
-vim.api.nvim_set_hl(0, "Normal", { bg = '#0a0a0a' })
