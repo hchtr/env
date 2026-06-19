@@ -7,6 +7,7 @@ if (Test-Path "$env:HCHTR_HOME") {
 #
 function ee { explorer . }
 function hm { sl $env:HCHTR_HOME }
-function run { ./build/a.exe }
-function build { ./scripts/build.ps1 }
-#
+##
+function conf { cmake --preset $args }
+function build { cmake --build --preset $args }
+##
